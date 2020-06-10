@@ -1,0 +1,9 @@
+
+    "dashboard.server.widgets": [
+        {"name":"Brzina diska","gridItemConfig":{"sizex":1,"sizey":1},"widget":{"insights-widget":{"type":{"count":{"dataDirection":"horizontal","columnsAsLabels":true,"labelFirstColumn":false,"legendPosition":"top"}},"queryFile":"FullPath\BrzinaDiska.sql"}}},
+        {"name":"Odrađeni backup","gridItemConfig":{"sizex":1,"sizey":1},"widget":{"insights-widget":{"type":{"count":{"dataDirection":"horizontal","columnsAsLabels":true,"labelFirstColumn":false,"legendPosition":"top"}},"queryFile":"FullPath\BackupStatus.sql"}}},
+        {"name":"Top 5 upita najveće potrošnje CPUa","gridItemConfig":{"sizex":2,"sizey":1},"widget":{"insights-widget":{"type":{"table":{"dataDirection":"vertical","columnsAsLabels":true,"labelFirstColumn":false,"legendPosition":"top","encoding":"hex","imageFormat":"jpeg","dataType":"number"}},"queryFile":"FullPath\Top5CPU.sql"}}},
+        {"name":"Veličina baza","gridItemConfig":{"sizex":2,"sizey":2},"widget":{"insights-widget":{"type":{"horizontalBar":{"dataDirection":"vertical","columnsAsLabels":true,"labelFirstColumn":true,"legendPosition":"top","encoding":"hex","imageFormat":"jpeg","dataType":"number"}},"queryFile":"FullPath\VelicinaBaza.sql"}}},
+        {"name":"Upiti s najviše I/O","gridItemConfig":{"sizex":2,"sizey":1},"widget":{"insights-widget":{"type":{"table":{"dataDirection":"horizontal","columnsAsLabels":true,"labelFirstColumn":false,"legendPosition":"top","encoding":"hex","imageFormat":"jpeg","dataType":"number"}},"queryFile":"FullPath\Top5IO.sql"}}}
+
+    ]
